@@ -14,64 +14,690 @@ Laboratory Techniques ([PDF]({{< baseurl >}}/resources/tech3))
 
 The following techniques are described over the course of the semester in 7.28.
 
-| LEC # | TOPICS | TECHNIQUES | ASSAYS FOR |
-| --- | --- | --- | --- |
-| 1 | Replication (Replication Enzymes) | dNTP Incorporation Assay | DNA Synthesis (Fast; Quantitative for Amount of Synth.). |
-| Filter Binding Assay | Method to separate incorporated from unincorporated dNTPs. |
-| Gel Electrophoresis | Method to separate DNA on the basis of length. |
-| Primer Extension Assay | DNA Synthesis (Slow; Quantitative for Length of Synth.). |
-| Template Challenge Assay | Assay for Processivity. |
-| 2 | Replication (Replication Fork) | DNA Helicase Assay | _In vitro_ DNA Helicase Activity. |
-| Helicase Polarity Assay | Assay for directionality of helicase movement; used to study function of replication termination sequences. |
-| Topoisomerase Assay | Assay for changes in DNA topology; distinguish supercoiled, relaxed, nicked, linear, forms of DNA and measure catenation/decatenation. |
-| 3 | Replication (Prok. System) | 2-D Agarose Gels | Assay for Origin of Replication (Must have an idea of where the origin is to test). |
-| Southern Blotting | Identifies specific DNA molecules transferred to membrane. |
-| DNA Microarray Assay | Assays the relative amount of replicated DNA sequences during a synchronized round of DNA replication to identify sites of replication initiation. |
-| Plasmid Replicator Assay | Identifies region of DNA sufficient for Replicator activity. |
-| Mutational Mapping Assay | Identifies regions of DNA necessary for Replicator activity. |
-| Biochemical Fractionation | Mechanism to purify biochemical activity that can be assayed _in vitro_. |
-| Biochemical Complementation | Combines mutant extracts with biochemical fractionation to identify proteins required for assay (in this case DNA replication). |
-| 4 | Replication (Euk. Systems) | Genetic Screen for DNA Replication Mutants | &nbsp; |
-| DNase I Protection Assay | Assay for Sequence Specific DNA Binding (Slower and not quantitative; Gives Information about bound DNA sequence). |
-| Gel Mobility Shift Assay | Assay for Sequence Specific DNA Binding (Fast and Quantitative but less information about bound sequence). |
-| DNA Unwinding Assay | Assays for formation of ssDNA through the use of a ssDNA specific nuclease. |
-| 5 | Chromatin Assembly | Template Association Assay | Uses gel filtration to separate molecules bound to a plasmid from molecules that are not bound to a plasmid. |
-| 6 | DNA Mismatch Repair | Heteroduplex DNA analysis | Assay for DNA repair _in vivo_. |
-| Restriction Analysis | Assay for methylation state of DNA. |
-| Restriction site repair | Assay of DNA repair _in vitro_; also used incorporation assay. |
-| 7 | DNA Repair II | Ames Test | Assay for chemicals and other factors that increase the frequency of mutations. |
-| Nicking of Circular DNA | Assay for excision-type mechanism of DNA repair. |
-| Lesion bypass DNA synthesis | Assay for ability of replication/repair proteins to synthesize DNA off of a damaged template. |
-| 8 | DS Break Repair, Homologous Recombination | Strand Exchange Assay | Assay for homologous DNA pairing and branch migration. |
-| 9 | Homologous Recombination Enzymes | ATPγS | Used in determining whether ATP binding or ATP-hydrolysis is required for a reaction. |
-| DMS Footprinting | Assay for protection of the bases in DNA, rather than the phosphodiester backbone. |
-| Cooperative DNA Binding | Gel-shift assay to measure cooperative vs. non-cooperative DNA binding. |
-| 10 | Meiotic Recombination | Consensus Sequences | Identification of important elements by conservation. |
-| Native-Denaturing 2D Gel | Detection of nicks vs DSBs in DNA. |
-| 11 | Site-specific Recombination | DNA Bending Assay | Assay for whether a protein bends DNA upon binding and position of bend. |
-| 12 | Transposition | Genomic Southern | Identifies specific DNA molecules transferred to membrane (here used for transposition). |
-| Plasmid Mating | Assay for transposition _in vivo_ by determining movement of drug resistance to a new plasmid. |
-| 13 | Transcription: Prok. Machinery and Promoters | Incorporation Assay | Assay for Transcription _in vitro_. |
-| S1 Protection Assay | Assay for Transcription. Maps start site of transcription. |
-| Northern Blot | Assay for Transcription. Maps steady state RNA _in vivo_. |
-| Microarray Analysis of RNA | Assay for relative levels of gene expression. Can assay many genes at once. |
-| Pulse Labeling of _in vivo_ RNA | Assay for actively transcribing genes. |
-| Promoter Fusion Assay | Assay to indirectly measure promoter activity. |
-| 14 | Transcription: Euk. Machinery and Promoters | DNA Unwinding Assay | Assay for open complex formation. |
-| Indirect end-labeling | Method to extend a labeled DNA primer to measure breaks or modification of DNA. |
-| 15 | Transcription: Regulation I | Antibody Supershift Assay | Assay to determine the components of protein-DNA complex in a gel shift assay. |
-| 16 | Transcription: Regulation II | Transcription Factor DNA Binding Domain Mapping |
-| Transcriptional Factor Activation Domain Mapping | &nbsp; |
-| Chromatin Immunoprecipitation | Assay to determine the _in vivo_ binding site of proteins. |
-| 17 | RNA Processing I | R-Loop Formation | Assay for regions of mRNA that anneal to different DNA fragments. |
-| Gel Electrophoresis Assay | For intermediates and products formed during splicing _in vitro_ (done using labeled RNA). |
-| 18 | RNA processing II | Calculation of "Consensus Fold" and Rnase Digestion | Determination of RNA secondary structures. |
-| 19 | RNA Processing: Regulation | cDNA Cloning | Determine mRNA sequence and structure, protein expression. |
-| RT-PCR | Generate segments of amplified DNA starting with specific RNA template. |
-| Exon Trapping | Find exons in DNA fragments of regions thought to contain genes. |
-| 20 | RNA Editing, RNAi and miRNAs | &nbsp; |
-| 21 | Translation: Basic Machinery I | &nbsp; |
-| 22 | Translation: Basic Machinery II | &nbsp; |
-| 23 | Translation: Regulation I | Incorporation Assay for Translation Polysome Assay | Identifies mRNAs that are being translated _in vivo_. |
-| Gel Filtration Analysis of Protein Binding | Measures binding of small molecules to larger molecules (e.g., binding to ribosome). |
-| Filter Binding Assay | Measures binding of RNA to protein.
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+TECHNIQUES
+{{< thclose >}}
+{{< thopen >}}
+ASSAYS FOR
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Replication (Replication Enzymes)
+{{< tdclose >}}
+{{< tdopen >}}
+dNTP Incorporation Assay
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Synthesis (Fast; Quantitative for Amount of Synth.).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Filter Binding Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Method to separate incorporated from unincorporated dNTPs.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Gel Electrophoresis
+{{< tdclose >}}
+{{< tdopen >}}
+Method to separate DNA on the basis of length.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Primer Extension Assay
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Synthesis (Slow; Quantitative for Length of Synth.).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Template Challenge Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Processivity.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Replication (Replication Fork)
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Helicase Assay
+{{< tdclose >}}
+{{< tdopen >}}
+_In vitro_ DNA Helicase Activity.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Helicase Polarity Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for directionality of helicase movement; used to study function of replication termination sequences.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Topoisomerase Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for changes in DNA topology; distinguish supercoiled, relaxed, nicked, linear, forms of DNA and measure catenation/decatenation.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Replication (Prok. System)
+{{< tdclose >}}
+{{< tdopen >}}
+2-D Agarose Gels
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Origin of Replication (Must have an idea of where the origin is to test).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Southern Blotting
+{{< tdclose >}}
+{{< tdopen >}}
+Identifies specific DNA molecules transferred to membrane.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+DNA Microarray Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assays the relative amount of replicated DNA sequences during a synchronized round of DNA replication to identify sites of replication initiation.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Plasmid Replicator Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Identifies region of DNA sufficient for Replicator activity.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Mutational Mapping Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Identifies regions of DNA necessary for Replicator activity.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Biochemical Fractionation
+{{< tdclose >}}
+{{< tdopen >}}
+Mechanism to purify biochemical activity that can be assayed _in vitro_.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Biochemical Complementation
+{{< tdclose >}}
+{{< tdopen >}}
+Combines mutant extracts with biochemical fractionation to identify proteins required for assay (in this case DNA replication).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Replication (Euk. Systems)
+{{< tdclose >}}
+{{< tdopen >}}
+Genetic Screen for DNA Replication Mutants
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+DNase I Protection Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Sequence Specific DNA Binding (Slower and not quantitative; Gives Information about bound DNA sequence).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Gel Mobility Shift Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Sequence Specific DNA Binding (Fast and Quantitative but less information about bound sequence).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+DNA Unwinding Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assays for formation of ssDNA through the use of a ssDNA specific nuclease.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Chromatin Assembly
+{{< tdclose >}}
+{{< tdopen >}}
+Template Association Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Uses gel filtration to separate molecules bound to a plasmid from molecules that are not bound to a plasmid.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Mismatch Repair
+{{< tdclose >}}
+{{< tdopen >}}
+Heteroduplex DNA analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for DNA repair _in vivo_.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Restriction Analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for methylation state of DNA.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Restriction site repair
+{{< tdclose >}}
+{{< tdopen >}}
+Assay of DNA repair _in vitro_; also used incorporation assay.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Repair II
+{{< tdclose >}}
+{{< tdopen >}}
+Ames Test
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for chemicals and other factors that increase the frequency of mutations.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Nicking of Circular DNA
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for excision-type mechanism of DNA repair.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lesion bypass DNA synthesis
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for ability of replication/repair proteins to synthesize DNA off of a damaged template.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+DS Break Repair, Homologous Recombination
+{{< tdclose >}}
+{{< tdopen >}}
+Strand Exchange Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for homologous DNA pairing and branch migration.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Homologous Recombination Enzymes
+{{< tdclose >}}
+{{< tdopen >}}
+ATPγS
+{{< tdclose >}}
+{{< tdopen >}}
+Used in determining whether ATP binding or ATP-hydrolysis is required for a reaction.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+DMS Footprinting
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for protection of the bases in DNA, rather than the phosphodiester backbone.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Cooperative DNA Binding
+{{< tdclose >}}
+{{< tdopen >}}
+Gel-shift assay to measure cooperative vs. non-cooperative DNA binding.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Meiotic Recombination
+{{< tdclose >}}
+{{< tdopen >}}
+Consensus Sequences
+{{< tdclose >}}
+{{< tdopen >}}
+Identification of important elements by conservation.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Native-Denaturing 2D Gel
+{{< tdclose >}}
+{{< tdopen >}}
+Detection of nicks vs DSBs in DNA.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Site-specific Recombination
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Bending Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for whether a protein bends DNA upon binding and position of bend.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Transposition
+{{< tdclose >}}
+{{< tdopen >}}
+Genomic Southern
+{{< tdclose >}}
+{{< tdopen >}}
+Identifies specific DNA molecules transferred to membrane (here used for transposition).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Plasmid Mating
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for transposition _in vivo_ by determining movement of drug resistance to a new plasmid.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Transcription: Prok. Machinery and Promoters
+{{< tdclose >}}
+{{< tdopen >}}
+Incorporation Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Transcription _in vitro_.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+S1 Protection Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Transcription. Maps start site of transcription.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Northern Blot
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for Transcription. Maps steady state RNA _in vivo_.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Microarray Analysis of RNA
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for relative levels of gene expression. Can assay many genes at once.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Pulse Labeling of _in vivo_ RNA
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for actively transcribing genes.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Promoter Fusion Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay to indirectly measure promoter activity.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Transcription: Euk. Machinery and Promoters
+{{< tdclose >}}
+{{< tdopen >}}
+DNA Unwinding Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for open complex formation.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Indirect end-labeling
+{{< tdclose >}}
+{{< tdopen >}}
+Method to extend a labeled DNA primer to measure breaks or modification of DNA.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Transcription: Regulation I
+{{< tdclose >}}
+{{< tdopen >}}
+Antibody Supershift Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Assay to determine the components of protein-DNA complex in a gel shift assay.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Transcription: Regulation II
+{{< tdclose >}}
+{{< tdopen >}}
+Transcription Factor DNA Binding Domain Mapping
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Transcriptional Factor Activation Domain Mapping
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chromatin Immunoprecipitation
+{{< tdclose >}}
+{{< tdopen >}}
+Assay to determine the _in vivo_ binding site of proteins.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+RNA Processing I
+{{< tdclose >}}
+{{< tdopen >}}
+R-Loop Formation
+{{< tdclose >}}
+{{< tdopen >}}
+Assay for regions of mRNA that anneal to different DNA fragments.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Gel Electrophoresis Assay
+{{< tdclose >}}
+{{< tdopen >}}
+For intermediates and products formed during splicing _in vitro_ (done using labeled RNA).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+RNA processing II
+{{< tdclose >}}
+{{< tdopen >}}
+Calculation of "Consensus Fold" and Rnase Digestion
+{{< tdclose >}}
+{{< tdopen >}}
+Determination of RNA secondary structures.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+RNA Processing: Regulation
+{{< tdclose >}}
+{{< tdopen >}}
+cDNA Cloning
+{{< tdclose >}}
+{{< tdopen >}}
+Determine mRNA sequence and structure, protein expression.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+RT-PCR
+{{< tdclose >}}
+{{< tdopen >}}
+Generate segments of amplified DNA starting with specific RNA template.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Exon Trapping
+{{< tdclose >}}
+{{< tdopen >}}
+Find exons in DNA fragments of regions thought to contain genes.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+RNA Editing, RNAi and miRNAs
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Translation: Basic Machinery I
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Translation: Basic Machinery II
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Translation: Regulation I
+{{< tdclose >}}
+{{< tdopen >}}
+Incorporation Assay for Translation Polysome Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Identifies mRNAs that are being translated _in vivo_.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Gel Filtration Analysis of Protein Binding
+{{< tdclose >}}
+{{< tdopen >}}
+Measures binding of small molecules to larger molecules (e.g., binding to ribosome).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Filter Binding Assay
+{{< tdclose >}}
+{{< tdopen >}}
+Measures binding of RNA to protein.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

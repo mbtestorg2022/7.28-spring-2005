@@ -7,11 +7,48 @@ uid: 792e84bf-65a2-d508-c563-dedff6b22b6e
 Problem Sets
 ------------
 
-| ASSIGNMENTS | sOLUTIONS |
-| --- | --- |
-| Problem Set 1 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset1)) | (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset1_ans)) |
-| Problem Set 2 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset2)) | (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset2_ans)) |
-| Problem Set 3 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset3)) | (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset3_ans)) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ASSIGNMENTS
+{{< thclose >}}
+{{< thopen >}}
+sOLUTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Problem Set 1 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset1))
+{{< tdclose >}}
+{{< tdopen >}}
+(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset1_ans))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Problem Set 2 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset2))
+{{< tdclose >}}
+{{< tdopen >}}
+(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset2_ans))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Problem Set 3 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset3))
+{{< tdclose >}}
+{{< tdopen >}}
+(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset3_ans))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Optional Writing Assignments
 ----------------------------
@@ -20,11 +57,78 @@ For each third of the course, one research article related to the material cover
 
 The answers to the discussion questions should be in the form of a 2 page essay with Title, double spaced, using 12 font size with one inch margins on top, bottom, left, and right. All papers should be left justified. No excuses! The essay should synopsize the important points of the paper that pertain to the question (no more than two paragraphs) and propose an answer to the questions posed. The quality of the answer will depend on the quality of the supporting arguments as well as the quality of the presentation.
 
-| WRITING ASSIGNMENTS | DISCUSSION QUESTIONS |
-| --- | --- |
-|  {{< br >}}{{< br >}} Writing Assignment 1 ([PDF]({{< baseurl >}}/resources/writing1)) {{< br >}}{{< br >}}  | Chong, J. P., M. K. Hayashi, M. N. Simon, R. M. Xu, and B. Stillman. "A double-hexamer archaeal minichromosome maintenance protein is an ATP-dependent DNA helicase." _Proc Natl Acad Sci U.S.A._ 97, no. 4 (Feb 15, 2000): 1530-5. {{< br >}}{{< br >}} The paper by Chong and colleagues describes the purification and characterization of an archaebacterial protein (MtMcm) that is related to the eukaryotic Mcm proteins. The experiments in figure 1 indicate that MtMcm has a binding site for both ssDNA and dsDNA. It is possible that these DNAs bind the same site in the protein or that they bind separate sites. Propose an experiment to distinguish between these two possibilities and describe the results you would expect if dsDNA and ssDNA share the same binding site. If ssDNA and dsDNA share the same binding site, what part of the DNA is most likely involved in the interaction that stimulates the ATPase? {{< br >}}{{< br >}} To address the ability of MtMcm protein to displace large DNA fragments, the authors created a DNA helicase substrate with variable length ssDNAs (25 to 500 bases) annealed to a large ssDNA circle and find that MtMcm can displace ssDNAs as long as 500 bases. Is this an assay for MtMcm processivity? Explain why or why not. {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} Writing Assignment 2 ([PDF]({{< baseurl >}}/resources/writing2)) {{< br >}}{{< br >}}  | Yang, H., Q. Li, J. Fan, W. K. Holloman, and N. P. Pavletich. "The BRCA2 homologue Brh2 nucleates RAD51 filament formation at a dsDNA-ssDNA junction." _Nature_ 433, no. 7026 (Feb 10, 2005): 653-7. {{< br >}}{{< br >}} The paper by Yang and colleagues describes characterization of the BRCA2 homolog, Brh2. They provide evidence that Brh2 promotes assembly of Rad51 filament and that this role could explain how BRCA2 proteins function in DSB repair. {{< br >}}{{< br >}} The recombination assays described in the paper require the single-stranded DNA binding protein RPA. Explain the multiple effects that RPA is thought to have on Rad51 filament assembly. In one experiment, the authors use _E. coli_ SSB in place of RPA. What is the role of this experiment in the logic of the paper? {{< br >}}{{< br >}} The authors also conclude that Brh2 preferentially promotes Rad51 filament formation at ssDNA-dsDNA junctions. Furthermore, they infer that these filaments grow specifically to coat the 3'ssDNA overhang. How would their results differ if this specific polarity of filament growth had not been observed? They suggest from their structural work that this polarity could be due to nucleation by BRC-bound Rad51. Do you find this model attractive, unattractive, or unnecessary? Explain your position on this issue. {{< br >}}{{< br >}}  |
-| Writing Assignment 3 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/writing3)) |  {{< br >}}{{< br >}} Ibrahim, el C., T. D. Schaal, K. J. Hertel, R. Reed, and T. Maniatis. "Serine/arginine-rich protein-dependent suppression of exon skipping by exonic splicing enhancers." _Proc Natl Acad Sci U.S.A._ 102, no. 14 (Apr 5, 2005):5002-7. (Epub Mar 7, 2005) {{< br >}}{{< br >}} The paper by Ibrahim et al. addresses the mechanisms employed to ensure proper pairing of 5' and 3' splice sites. The authors make two distinct conclusions: (1) that SR proteins, by binding to unspliced exons, direct the splicing machinery to the nearest 5' and 3' splice sites; (2) the SR proteins function to suppress splicing between upstream 5' splice sites and downstream 3' splice sites. Summarize the evidence that specifically supports the second of these conclusions. {{< br >}}{{< br >}} In pre-mRNAs that carry several alternative exons (for example a gene with 4 exons, but 3 alternative versions of exon 2 that are used in different tissues) splice site choice has extra complexities. Based on the conclusions of this paper, propose a model for how alternative splicing in the different tissues could be achieved. You may include a figure if you wish, in addition to the 2 pages of written text. {{< br >}}{{< br >}} /td> 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+WRITING ASSIGNMENTS
+{{< thclose >}}
+{{< thopen >}}
+DISCUSSION QUESTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Writing Assignment 1 ([PDF]({{< baseurl >}}/resources/writing1))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Chong, J. P., M. K. Hayashi, M. N. Simon, R. M. Xu, and B. Stillman. "A double-hexamer archaeal minichromosome maintenance protein is an ATP-dependent DNA helicase." _Proc Natl Acad Sci U.S.A._ 97, no. 4 (Feb 15, 2000): 1530-5.
+
+The paper by Chong and colleagues describes the purification and characterization of an archaebacterial protein (MtMcm) that is related to the eukaryotic Mcm proteins. The experiments in figure 1 indicate that MtMcm has a binding site for both ssDNA and dsDNA. It is possible that these DNAs bind the same site in the protein or that they bind separate sites. Propose an experiment to distinguish between these two possibilities and describe the results you would expect if dsDNA and ssDNA share the same binding site. If ssDNA and dsDNA share the same binding site, what part of the DNA is most likely involved in the interaction that stimulates the ATPase?
+
+To address the ability of MtMcm protein to displace large DNA fragments, the authors created a DNA helicase substrate with variable length ssDNAs (25 to 500 bases) annealed to a large ssDNA circle and find that MtMcm can displace ssDNAs as long as 500 bases. Is this an assay for MtMcm processivity? Explain why or why not.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Writing Assignment 2 ([PDF]({{< baseurl >}}/resources/writing2))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Yang, H., Q. Li, J. Fan, W. K. Holloman, and N. P. Pavletich. "The BRCA2 homologue Brh2 nucleates RAD51 filament formation at a dsDNA-ssDNA junction." _Nature_ 433, no. 7026 (Feb 10, 2005): 653-7.
+
+The paper by Yang and colleagues describes characterization of the BRCA2 homolog, Brh2. They provide evidence that Brh2 promotes assembly of Rad51 filament and that this role could explain how BRCA2 proteins function in DSB repair.
+
+The recombination assays described in the paper require the single-stranded DNA binding protein RPA. Explain the multiple effects that RPA is thought to have on Rad51 filament assembly. In one experiment, the authors use _E. coli_ SSB in place of RPA. What is the role of this experiment in the logic of the paper?
+
+The authors also conclude that Brh2 preferentially promotes Rad51 filament formation at ssDNA-dsDNA junctions. Furthermore, they infer that these filaments grow specifically to coat the 3'ssDNA overhang. How would their results differ if this specific polarity of filament growth had not been observed? They suggest from their structural work that this polarity could be due to nucleation by BRC-bound Rad51. Do you find this model attractive, unattractive, or unnecessary? Explain your position on this issue.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Writing Assignment 3 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/writing3))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Ibrahim, el C., T. D. Schaal, K. J. Hertel, R. Reed, and T. Maniatis. "Serine/arginine-rich protein-dependent suppression of exon skipping by exonic splicing enhancers." _Proc Natl Acad Sci U.S.A._ 102, no. 14 (Apr 5, 2005):5002-7. (Epub Mar 7, 2005)
+
+The paper by Ibrahim et al. addresses the mechanisms employed to ensure proper pairing of 5' and 3' splice sites. The authors make two distinct conclusions: (1) that SR proteins, by binding to unspliced exons, direct the splicing machinery to the nearest 5' and 3' splice sites; (2) the SR proteins function to suppress splicing between upstream 5' splice sites and downstream 3' splice sites. Summarize the evidence that specifically supports the second of these conclusions.
+
+In pre-mRNAs that carry several alternative exons (for example a gene with 4 exons, but 3 alternative versions of exon 2 that are used in different tissues) splice site choice has extra complexities. Based on the conclusions of this paper, propose a model for how alternative splicing in the different tissues could be achieved. You may include a figure if you wish, in addition to the 2 pages of written text.
+
+/td>
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Additional Writing Assignments
 ------------------------------
