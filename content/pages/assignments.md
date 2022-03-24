@@ -22,28 +22,28 @@ sOLUTIONS
 {{< theadclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-Problem Set 1 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset1))
+Problem Set 1 ([PDF]({{< baseurl >}}/resources/pset1))
 {{< tdclose >}}
 {{< tdopen >}}
-(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset1_ans))
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< tdopen >}}
-Problem Set 2 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset2))
-{{< tdclose >}}
-{{< tdopen >}}
-(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset2_ans))
+([PDF]({{< baseurl >}}/resources/pset1_ans))
 {{< tdclose >}}
 
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-Problem Set 3 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset3))
+Problem Set 2 ([PDF]({{< baseurl >}}/resources/pset2))
 {{< tdclose >}}
 {{< tdopen >}}
-(![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/pset3_ans))
+([PDF]({{< baseurl >}}/resources/pset2_ans))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Problem Set 3 ([PDF]({{< baseurl >}}/resources/pset3))
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/pset3_ans))
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -112,7 +112,7 @@ The authors also conclude that Brh2 preferentially promotes Rad51 filament forma
 {{< trclose >}}
 {{< tropen >}}
 {{< tdopen >}}
-Writing Assignment 3 (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/writing3))
+Writing Assignment 3 ([PDF]({{< baseurl >}}/resources/writing3))
 {{< tdclose >}}
 {{< tdopen >}}
 
