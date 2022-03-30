@@ -9,6 +9,7 @@ description: This resourse provides information Problem set 3 containing 10 ques
   chemically-modified Serine into proteins.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/7-28-molecular-biology-spring-2005/cf3fbff0ba0e1c89aaa835a6015bbd94_pset3.pdf
 file_type: application/pdf
+parent_uid: 792e84bf-65a2-d508-c563-dedff6b22b6e
 resourcetype: Document
 title: pset3.pdf
 uid: cf3fbff0-ba0e-1c89-aaa8-35a6015bbd94
